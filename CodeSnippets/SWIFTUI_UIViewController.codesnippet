@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>SwiftViewController</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// MARK: - SwiftUI Preview
+#if DEBUG &amp;&amp; canImport(SwiftUI)
+import SwiftUI
+
+@available(iOS 13.0, *)
+struct &lt;#Example#&gt;Container: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -&gt; &lt;#Example#&gt; {
+        return &lt;#Example#&gt;()
+    }
+    
+    func updateUIViewController(_ uiView: &lt;#Example#&gt;, context: Context) {}
+}
+
+@available(iOS 13.0, *)
+struct &lt;#Example#&gt;Container_Previews: PreviewProvider {
+    static var previews: some View {
+        &lt;#Example#&gt;Container()
+            .colorScheme(.light)
+            .previewLayout(.device)
+        &lt;#Example#&gt;Container()
+            .colorScheme(.dark)
+            .previewLayout(.device)
+    }
+}
+
+#endif</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>755BB018-7851-4862-AD31-CAA69528B3AE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>SwiftUI Preview</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

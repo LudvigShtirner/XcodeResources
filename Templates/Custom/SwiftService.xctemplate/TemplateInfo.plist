@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>A Service Unit class.</string>
+	<key>Summary</key>
+	<string>A template for protocol and class in BusinessLogic layer</string>
+	<key>SortOrder</key>
+	<string>3</string>
+	<key>DefaultCompletionName</key>
+	<string>Service</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Default</key>
+			<string>Service</string>
+			<key>Identifier</key>
+			<string>serviceName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Protocol Name</string>
+			<key>Description</key>
+			<string>The name of the protocol of will created service</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_serviceName___</string>
+			<key>Description</key>
+			<string>The protocol name</string>
+			<key>Identifier</key>
+			<string>protocolName</string>
+			<key>Name</key>
+			<string>Protocol Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_serviceName___Base</string>
+			<key>Description</key>
+			<string>The class name</string>
+			<key>Identifier</key>
+			<string>className</string>
+			<key>Name</key>
+			<string>Class Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+</dict>
+</plist>

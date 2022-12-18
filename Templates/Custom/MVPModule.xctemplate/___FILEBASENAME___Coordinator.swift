@@ -21,9 +21,9 @@ final class ___VARIABLE_productName___Coordinator: BaseCoordinator {
         let viewController = module.viewController
         module.coordinatorInteractor.onClose { [weak self, weak viewController] in
             guard let viewController = viewController else { return }
-            self?.finishFlow(viewController: viewController)
+            self?.finishFlow(viewController: viewController,
+                             closeType: <#CloserType#>)
         }
         return viewController
     }
 }
-

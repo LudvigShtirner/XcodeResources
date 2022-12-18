@@ -35,7 +35,7 @@ final class ___VARIABLE_productName___AssemblyBase: Swinject.Assembly {
     // MARK: - Private methods
     private func registerFlowFactory() {
         container.register(___VARIABLE_productName___FlowFactory.self) { [unowned self] _ in
-            return ___VARIABLE_productName___FlowFactory(___VARIABLE_productName___Assembly: self)
+            return ___VARIABLE_productName___FlowFactoryBase(currentModuleAssembly: self)
         }
     }
     

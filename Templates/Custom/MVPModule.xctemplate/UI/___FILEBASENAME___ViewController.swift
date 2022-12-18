@@ -26,7 +26,7 @@ final class ___VARIABLE_productName___ViewController: BaseViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    // MARK: -  Overrides methods
+    // MARK: - Overrides methods
     override func viewDidLoad() {
         super.viewDidLoad()
         

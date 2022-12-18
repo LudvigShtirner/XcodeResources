@@ -8,5 +8,5 @@ import Foundation
 /// <#Description#>
 final class ___VARIABLE_productName___Localization: LocalizationResource {
     // MARK: - Data
-    //static let <#LocalizedVar#> = localize(for: "<#LocalizeKey#>")
+//    static let <#LocalizedVar#> = localize(for: "<#LocalizeKey#>")
 }

@@ -1,10 +1,10 @@
 //___FILEHEADER___
 
-protocol ___VARIABLE_productName___FlowFactory: FlowFactory {
+protocol ___VARIABLE_productName___FlowFactory {
     func makeCoordinator() -> ___VARIABLE_productName___Coordinator
 }
 
-final class ___VARIABLE_productName___FlowFactoryImpl: ___VARIABLE_productName___FlowFactory {
+final class ___VARIABLE_productName___FlowFactoryBase: ___VARIABLE_productName___FlowFactory {
     // MARK: - Dependencies
     private let currentModuleAssembly: ___VARIABLE_productName___Assembly
     
